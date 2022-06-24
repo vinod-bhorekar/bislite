@@ -1,0 +1,343 @@
+﻿*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header__container{
+    width: auto;
+    height: auto;
+    background-color: #e8ebf1 ;
+    display: flex;
+    justify-content: center;
+}
+.nav__bar{
+    width: 1000px;
+    padding:35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    width:300px;
+    background: url('./assets/bis-lite.png') no-repeat;
+    padding: 20px 0;
+}
+
+.nav-btn__container{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.nav-btn__container ul{
+    display:flex;
+    list-style-type: none;
+
+}
+.nav-btn__link{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 30px;
+    color: #000000;
+
+}
+.nav-btn__link:hover{
+    color: aqua;
+    font-weight: bold;
+}
+.banner__container{
+    width: auto;
+    background-color:#81e4ed;
+}
+.banner-box{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0 40px;
+ }
+ .image-box{ 
+    width:auto;
+    height:440px;
+    background: url('./assets/header-image.jpg') no-repeat;
+    display: flex;
+    align-items: center;
+    
+ }
+ .text__box{
+    width: 369px;
+    height: 242px;
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 50px;
+ }
+ .features__container{
+    width:auto;
+    height:auto;
+    background-color: #e8ebf1;
+    padding: 50px 0;
+
+    
+ }
+ 
+ .feature-box{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ 
+ .icon-heading{
+    width: 234px;
+    height: auto;
+
+ }
+ .icon{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #2aacc8;
+    display: inline-block;
+
+ }
+ 
+ .heading-text{
+    display: inline-block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+ }
+ .feature__paratext{
+    width: 234px;
+    padding-top: 20px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #363636;
+    line-height: 20px;
+    
+ }
+ .fa-pen{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+
+ }
+ .fa-bars{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+ }
+ .fa-paper-plane{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+
+ }
+ .fa-display{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+ }
+ .container__latest-work{
+    width: auto;
+    height: auto;
+
+ }
+ .latest-work-text__bar{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+ }
+ 
+ .icon-text__box{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    border: 1px solid #e8ebf1;
+
+ }
+ .left-arrow-text{
+    width: auto;
+    height: auto;
+ }
+ .pointer-icon__box{
+    display: inline-block;
+    margin-right: 20px;
+ }
+ .fa-arrow-pointer{
+    color: #2aacc8;
+    font-size: 20px;
+ }
+ .latest-work__text{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    
+ }
+ .right-angle-arrow{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+ }
+ .fa-circle-chevron-left{
+    color: #2aacc8;
+ }
+ .fa-circle-chevron-right{
+    color:#2aacc8;
+ }
+ .images__bar{
+    width: auto;
+    height: auto;
+    
+ }
+ .images__container{
+    width: 1000px;
+    height: auto;
+    padding: 20px 0 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 1px solid #e8ebf1;
+    border-top: none;
+ }
+ .image-box1{
+    width: 220px;
+    height: 160px;
+    background: url(./assets/content-image1.jpg) no-repeat;
+ }
+ .image-box2{
+   width: 220px;
+   height: 160px;
+   background: url(./assets/content-image2.jpg) no-repeat;
+}
+.image-box3{
+   width: 220px;
+   height: 160px;
+   background: url(./assets/content-image3.jpg) no-repeat;
+}
+.image-box4{
+   width: 220px;
+   height: 160px;
+   background: url(./assets/content-image4.jpg) no-repeat;
+}
+.testimonials-client__section{
+   width: auto;
+   height: auto;
+
+}
+.testimonials-client__container{
+   width: 1000px;
+   height: auto;
+   padding:20px 0 40px ;
+   margin: 0 auto;
+}
+.testimonials__box{
+   width: 50%;
+   height: auto;
+   display: inline-block;
+}
+.testimonials__icon-heading{
+   width: auto;
+   height: auto;
+   margin-bottom: 25px;
+}
+.comment-icon{
+   display: inline-block;
+}
+.fa-comment-dots{
+   color: #2aacc8;
+   font-size: 20px;
+   margin-right: 10px;
+}
+.testimonials-client__container{
+   display: flex;
+}
+.testimonials-heading{
+   display: inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: #000000;
+}
+.testimonials-text{
+   width: auto;
+   height: auto;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: #363636;
+   line-height: 24px;
+   margin-right: 75px;
+}
+.testimonials-text h4{
+   margin-top: 10px;
+}
+.client__box{
+   width: 50%;
+   height: auto;
+   display: inline-block;
+}
+.client-icon{
+   display: inline-block;
+   margin-right: 10px;
+}
+.fa-user-group{
+   font-size: 20px;
+   color: #2aacc8;
+}
+.client-heading{
+   display: inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: #000000;
+   margin-bottom: 20px;
+
+}
+.client__box{
+   display: flex;
+   justify-content: flex-end;
+}
+.client-images__box{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+
+}
+.cox{
+   width: 160px;
+   height: 100px;
+   background: url(./assets/client-image1.png) no-repeat;
+
+}
+.cnn{
+   width: 160px;
+   height: 100px;
+   background: url(./assets/client-image2.png) no-repeat;
+}
+.apartment-finder{
+   width: 160px;
+   height: 100px;
+   background: url(./assets/client-image3.png) no-repeat;
+}
+.john-deere{
+   width: 160px;
+   height: 100px;
+   background: url(./assets/client-image4.png) no-repeat;
+}
+.banana-boat{
+   width: 160px;
+   height: 100px;
+   background: url(./assets/client-image5.png) no-repeat;
+}
+.fuji-film{
+   width: 160px;
+   height: 100px;
+   background: url(./assets/client-image6.png) no-repeat;
+}
