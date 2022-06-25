@@ -38,12 +38,13 @@
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
-    margin-right: 30px;
+    margin-left: 30px;
     color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .nav-btn__link:hover{
-    color: aqua;
+    color:#81e4ed;
     font-weight: bold;
 }
 .banner__container{
@@ -238,7 +239,7 @@
    display: flex;
 }
 .testimonials__box{
-   width: 50%;
+   width: 500px;
    height: auto;
    display: inline-block;
 }
@@ -274,7 +275,7 @@
    margin-top: 10px;
 }
 .client__box{
-   width: 50%;
+   width: 500px;
    height: auto;
    display: inline-block;
 }
@@ -305,35 +306,42 @@
 
 }
 .cox{
-   width: 160px;
+   width: 167px;
    height: 100px;
    background: url(./assets/client-image1.png) no-repeat;
+   background-size: 167px;
 
 }
 .cnn{
-   width: 160px;
+   width: 167px;
    height: 100px;
    background: url(./assets/client-image2.png) no-repeat;
+   background-size: 167px;
+
 }
 .apartment-finder{
-   width: 160px;
+   width: 166px;
    height: 100px;
    background: url(./assets/client-image3.png) no-repeat;
+   background-size: 166px;
 }
 .john-deere{
-   width: 160px;
+   width: 167px;
    height: 100px;
    background: url(./assets/client-image4.png) no-repeat;
+   background-size: 167px;
 }
 .banana-boat{
-   width: 160px;
+   width: 167px;
    height: 100px;
    background: url(./assets/client-image5.png) no-repeat;
+   background-size: 167px;
 }
 .fuji-film{
-   width: 160px;
+   width: 166px;
    height: 100px;
    background: url(./assets/client-image6.png) no-repeat;
+   background-size: 166px;
 }
 .download__section{
    width: auto;
@@ -446,6 +454,10 @@
    color: #000000;
    line-height: 20px;
 }
+.explore__menu-link:hover{
+   color:#81e4ed;
+   
+}
 .brows__box{
    width: auto;
    height: auto;
@@ -472,6 +484,9 @@
    font-size: 15px;
    color: #000000;
    line-height: 20px;
+}
+.brows__menu-link:hover{
+   color:#81e4ed;
 }
 .contact-us__box{
    width: auto;
