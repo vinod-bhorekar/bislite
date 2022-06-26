@@ -41,10 +41,12 @@
     margin-left: 30px;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
+    padding:5px 0;
+
 
 }
 .nav-btn__link:hover{
-    color:#81e4ed;
+    border-top: 5px solid #2aacc8;
     font-weight: bold;
 }
 .banner__container{

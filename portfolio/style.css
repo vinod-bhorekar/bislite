@@ -1,0 +1,472 @@
+﻿*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header__container{
+    width: auto;
+    height: auto;
+    background-color: #e8ebf1 ;
+    display: flex;
+    justify-content: center;
+}
+.nav__bar{
+    width: 1000px;
+    padding:35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    width:300px;
+    background: url('../assets/bis-lite.png') no-repeat;
+    padding: 20px 0;
+}
+
+.nav-btn__container{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.nav-btn__container ul{
+    display:flex;
+    list-style-type: none;
+    
+
+}
+.nav-btn__link{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px 0;
+
+}
+.nav-btn__link:hover{
+   border-top: 5px solid #2aacc8;
+   font-weight: bold;
+}
+
+ .container__portfolio{
+    width: auto;
+    height: auto;
+ }
+ .portfolio-heading__container{
+   width: auto;
+   height: auto;
+ }
+ .portfolio-heading__bar{
+   width:1000px;
+   height: auto;
+   margin: 0 auto;
+   padding: 35px 0 10px;
+ }
+ .brush-icon{
+   display: inline-block;
+   margin-right: 10px;
+ }
+ .fa-paintbrush{
+   color: #2aacc8;
+    font-size: 20px;
+
+ }
+ .portfolio__heading{
+   display: inline-block;
+   color: #000000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 15px;
+ }
+ .portfolio-menu__container{
+   width: auto;
+   height: auto;
+ }
+ .portfolio-menu__bar{
+   width: 1000px;
+   height: auto;
+   margin: 0 auto;
+   padding:15px 0;
+   border-top: 1px solid #e8ebf1;
+   border-bottom: 1px solid #e8ebf1;
+ }
+ .portfolio-menu__bar ul{
+   list-style-type: none;
+   padding: 0;
+   display: flex;
+
+ }
+ .menu__link{
+   text-decoration: none;
+   font-size: 14px;
+   color: #000000;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right: 15px;
+   font-weight: bold;
+   padding: 10px 15px;
+   
+ }
+ .menu__link:hover{
+   background-color: #81e4ed;
+   padding: 10px 15px;
+ }
+ .portfolio-images__container{
+   width: auto;
+   height: auto;
+ }
+ .portgolio-images__section{
+   width: 1000px;
+   height: auto;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 40px 0;
+   border-bottom:1px solid #e8ebf1;
+
+ }
+ 
+ .portfolio-image1{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-1.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image2{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-2.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image3{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-3.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image4{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-4.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image5{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-5.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image6{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-6.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image7{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-7.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image8{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-8.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image9{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-9.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image10{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-10.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image11{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-11.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image12{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-12.jpg) no-repeat;
+   margin-bottom: 40px;
+ }
+ .portfolio-image13{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-13.jpg) no-repeat;
+   
+ }
+ .portfolio-image14{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-14.jpg) no-repeat;
+   
+ }
+ .portfolio-image15{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-15.jpg) no-repeat;
+   
+ }
+ .portfolio-image16{
+   width: 220px;
+   height: 160px;
+   background: url(../assets/portfolio-16.jpg) no-repeat;
+
+   
+ }
+ .portfolio-paginatio__section{
+   width: 1000px;
+   height: auto;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   padding: 30px 40px;
+}
+
+.pagination__number{
+   padding: 5px 10px;
+   margin-right: 10px;
+   font-weight: bold;
+}
+.pagination__number:hover {
+   background-color: #2aacc8;
+}
+.pagination-link{
+   text-decoration: none;
+   color:#000000;
+}
+.pagination__arrow{
+   padding: 5px 10px;
+   margin-right: 10px;
+}
+.pagination__arrow:hover {
+   background-color: #e8ebf1;
+}
+
+
+.fa-angles-right{
+   color: #2aacc8;
+}
+.fa-angle-right{
+   color: #2aacc8;
+}
+
+
+
+
+
+
+.footer__section{
+   width: auto;
+   height: auto;
+   background-color:#e8ebf1;
+   padding: 30px 0;
+}
+.footer-info__container{
+   width: 1000px;
+   height: auto;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+
+}
+.about-us__box{
+   width: 240px;
+   height: auto;
+}
+.footer-info__heading{
+   font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.about-us__para{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: #000000;
+   line-height: 20px;
+
+}
+.explore__box{
+   width: auto;
+   height: auto;
+}
+.explore__heading{
+   font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.explore__menu{
+   width: auto;
+   height: auto;
+}
+.explore__menu ul{
+   list-style-type: none;
+   padding: 0;
+}
+
+.explore__menu-link {
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: #000000;
+   line-height: 20px;
+}
+.explore__menu-link:hover{
+   color:#81e4ed;
+   
+}
+.brows__box{
+   width: auto;
+   height: auto;
+
+}
+.brows__heading{
+   font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.brows__menu{
+   width: auto;
+   height: auto;
+}
+.brows__menu ul{
+   list-style-type: none;
+   padding: 0;
+}
+.brows__menu-link {
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: #000000;
+   line-height: 20px;
+}
+.brows__menu-link:hover{
+   color:#81e4ed;
+}
+.contact-us__box{
+   width: auto;
+   height: auto;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+}
+.connect-with-us__box{
+   width: 190px;
+   height: auto;
+}
+.footer-info__social-media{
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+.footer-info__social-media > div {
+   width: 50px;
+   height: 50px;
+   border: 5px solid #ffffff;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+.facebook{
+   background-color:#3b5998 ;
+  
+}
+.fa-facebook-f{
+   color: #ffffff;
+   font-size: 25px;
+
+}
+.dribbble{
+   background-color: #ea4c88;
+}
+.fa-dribbble{
+   color: #ffffff;
+   font-size: 25px;
+
+
+}
+.pinterest{
+   background-color: #cb2027;
+
+}
+.fa-pinterest{
+   color: #ffffff;
+   font-size: 25px;
+}
+.linkdin{
+   background-color:#3399cc ;
+}
+.fa-linkedin-in{
+   color:#ffffff;
+   font-size: 25px;
+
+
+}
+.skype{
+   background-color: #00b0f0;
+}
+.fa-skype{
+   color: #ffffff;
+   font-size: 25px;
+}
+.share{
+   background-color: #21a61b;
+}
+.fa-share-nodes{
+   color: #ffffff;
+   font-size: 25px;
+}
+.footer__copyright-section{
+   width: auto;
+   height: auto;
+}
+.copyright__container{
+   width:1000px;
+   height: auto;
+   margin: 0 auto;
+   padding-top: 40px;
+   display: flex;
+   justify-content: space-between;
+}
+.copyright-text__container{
+   width: auto;
+   height: auto;
+   line-height: 18px;
+   font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #363636;
+}
+.fa-copyright{
+   color: #363636;
+   font-size: 12px;
+   margin-right: 5px;
+}
+.footer-logo__container{
+   width:auto;
+   height: auto;
+   background: url('../assets/bis-lite.png') no-repeat;
+   padding: 20px 75px;
+
+}
