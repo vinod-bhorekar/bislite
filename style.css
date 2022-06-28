@@ -49,7 +49,6 @@
 }
 #home{
    margin: 0;
-
 }
 .nav-btn__link:hover{
     border-top: 5px solid #2aacc8;
@@ -650,7 +649,7 @@
    width: auto;
    height: auto;
  }
- .portgolio-images__section{
+ .portfolio-images__section{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -658,103 +657,65 @@
    border-bottom:1px solid #e8ebf1;
 
  }
- 
- .portfolio-image1{
+ .portfolio-image{
    width: 220px;
    height: 160px;
-   background: url(../assets/portfolio-1.jpg) no-repeat;
    margin-bottom: 40px;
+
+ }
+ #portfolio-img{
+   margin-bottom: 0;
+ }
+ .portfolio-image1{
+   background: url(./assets/portfolio-1.jpg) no-repeat;
  }
  .portfolio-image2{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-2.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-2.jpg) no-repeat;
  }
  .portfolio-image3{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-3.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-3.jpg) no-repeat;
  }
  .portfolio-image4{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-4.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-4.jpg) no-repeat;
  }
  .portfolio-image5{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-5.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-5.jpg) no-repeat;
  }
  .portfolio-image6{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-6.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-6.jpg) no-repeat;
  }
  .portfolio-image7{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-7.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-7.jpg) no-repeat;
  }
  .portfolio-image8{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-8.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-8.jpg) no-repeat;
  }
  .portfolio-image9{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-9.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-9.jpg) no-repeat;
  }
  .portfolio-image10{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-10.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-10.jpg) no-repeat;
  }
  .portfolio-image11{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-11.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-11.jpg) no-repeat;
  }
  .portfolio-image12{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-12.jpg) no-repeat;
-   margin-bottom: 40px;
+   background: url(./assets/portfolio-12.jpg) no-repeat;
  }
  .portfolio-image13{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-13.jpg) no-repeat;
+   background: url(./assets/portfolio-13.jpg) no-repeat;
    
  }
  .portfolio-image14{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-14.jpg) no-repeat;
+   background: url(./assets/portfolio-14.jpg) no-repeat;
    
  }
  .portfolio-image15{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-15.jpg) no-repeat;
+   background: url(./assets/portfolio-15.jpg) no-repeat;
    
  }
  .portfolio-image16{
-   width: 220px;
-   height: 160px;
-   background: url(../assets/portfolio-16.jpg) no-repeat;
-
-   
+   background: url(./assets/portfolio-16.jpg) no-repeat;
  }
  .portfolio-pagination__section{
    display: flex;
@@ -821,7 +782,7 @@
    width:auto;
    height: auto;
 }
-.form-text__box{
+.form__suggestion-text{
    margin-bottom: 30px;
    font-size: 14px;
    font-family: Arial, Helvetica, sans-serif;
@@ -833,6 +794,12 @@
    text-decoration: none;
    font-size: 14px;
    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+   font-size: 14px;
+   color: #000000;
+   font-family: Arial, Helvetica, sans-serif;
+
 }
 input[type=text], [type=email]{
    width: 480px;
