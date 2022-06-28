@@ -4,7 +4,7 @@
 }
 
 
-.header__container{
+.header__section{
     width: auto;
     height: auto;
     background-color: #e8ebf1 ;
@@ -28,12 +28,12 @@
     padding: 20px 0;
 }
 
-.nav-btn__container{
+.nav-btns{
     width: auto;
     display: flex;
     align-items: center;
 }
-.nav-btn__container ul{
+.nav-btns ul{
     display:flex;
     list-style-type: none;
 
@@ -54,11 +54,11 @@
     border-top: 5px solid #2aacc8;
     font-weight: bold;
 }
-.banner__section{
+.hero__section{
     width: auto;
     background-color:#81e4ed;
 }
-.banner__container{
+.hero__container{
     padding: 20px 0 40px;
  }
  .image-box{ 
@@ -82,8 +82,6 @@
     height:auto;
     background-color: #e8ebf1;
     padding: 50px 0;
-
-    
  }
  
  .feature__container{
@@ -107,7 +105,7 @@
 
  }
  
- .heading-text{
+ .feature__heading{
     display: inline-block;
     margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -148,23 +146,16 @@
  .content__section{
     width: auto;
     height: auto;
-
+    padding-bottom: 40px;
  }
- .slider-heading__bar{
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
- }
+ 
  
  .slider-heading__container{
     padding: 20px 0;
     display: flex;
+    justify-content: space-between;
  }
- .left-arrow-text{
-    width: auto;
-    height: auto;
- }
+
  .pointer-icon__box{
     display: inline-block;
     margin-right: 20px;
@@ -179,11 +170,6 @@
     font-size: 15px;
     color: #000000;
     
- }
- .right-angle-arrow{
-    width: auto;
-    height: auto;
-    margin-left: auto;
  }
  .fa-circle-chevron-left{
     color: #2aacc8;
@@ -224,13 +210,9 @@
    height: 160px;
    background: url(./assets/content-image4.jpg) no-repeat;
 }
-.testimonials-client__section{
-   width: auto;
-   height: auto;
 
-}
 .testimonials-client__container{
-   padding-top:20px;
+   padding:20px 0 40px;
    display: flex;
    justify-content: space-between;
 }
@@ -242,7 +224,7 @@
 .testimonials__icon-heading{
    width: auto;
    height: auto;
-   margin-bottom: 25px;
+   margin-bottom: 10px;
 }
 .comment-icon{
    display: inline-block;
@@ -258,9 +240,7 @@
    font-size: 15px;
    color: #000000;
 }
-.testimonials-description{
-   width: auto;
-   height: auto;
+.testimonials__description{
    font-family: Arial, Helvetica, sans-serif;
    font-size: 14px;
    color: #363636;
@@ -338,11 +318,6 @@
    height: 100px;
    background: url(./assets/client-image6.png) no-repeat;
    background-size: 166px;
-}
-.download__section{
-   width: auto;
-   height: auto;
-   padding: 40px 0;
 }
 .download__container{
    background-color:#e8fcfe;
@@ -616,10 +591,7 @@
    font-weight: bold;
    font-size: 15px;
  }
- .portfolio-menu__container{
-   width: auto;
-   height: auto;
- }
+ 
  .portfolio-menu__bar{
    padding:15px 0;
    border-top: 1px solid #e8ebf1;
@@ -645,10 +617,7 @@
    background-color: #81e4ed;
    padding: 10px 15px;
  }
- .portfolio-images__container{
-   width: auto;
-   height: auto;
- }
+
  .portfolio-images__section{
    display: flex;
    flex-wrap: wrap;
@@ -717,10 +686,15 @@
  .portfolio-image16{
    background: url(./assets/portfolio-16.jpg) no-repeat;
  }
- .portfolio-pagination__section{
+ .portfolio__pagination{
    display: flex;
    justify-content: center;
    padding: 30px 40px;
+}
+.portfolio__pagination ul{
+   list-style-type: none;
+   display: flex;
+
 }
 
 .pagination__number{
