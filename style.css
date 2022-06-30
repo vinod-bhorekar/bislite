@@ -16,23 +16,23 @@
    height: auto;
    margin:0 auto;
 }
-.nav__bar{
+.header__container{
     padding:35px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-btns{
+.navigation{
     width: auto;
     display: flex;
     align-items: center;
 }
-.nav-btns ul{
+.navigation ul{
     display:flex;
     list-style-type: none;
 
 }
-.nav-btn__link{
+.nav__page-link{
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
@@ -44,7 +44,7 @@
 #home{
    margin: 0;
 }
-.nav-btn__link:hover{
+.nav__page-link:hover{
     border-top: 5px solid #2aacc8;
     font-weight: bold;
 }
@@ -53,9 +53,9 @@
     background-color:#81e4ed;
 }
 .hero__container{
-    padding: 20px 0 40px;
+    padding-top: 20px;
  }
- .image-box{ 
+ .hero__image{ 
     width:auto;
     height:440px;
     background: url('./assets/header-image.jpg') no-repeat;
@@ -64,12 +64,28 @@
     align-items: center;
     
  }
- .text__box{
+ .hero__title{
     width: 369px;
     height: 242px;
     font-size: 50px;
     color: #ffffff;
     margin-left: 50px;
+ }
+ .hero__link-block{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+ }
+ .hero__link{
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   margin-right: 10px;
+   background-color:#626262;
+   
+ }
+ .hero__link:hover{
+   background-color: #ffffff;
  }
  .features__section{
     width:auto;
@@ -82,12 +98,12 @@
     display: flex;
     justify-content: space-between;
  }
- .icon-heading{
+ .feature__icon-title{
    display: flex;
    align-items: center;
  }
  
- .icon{
+ .feature__icon{
     width: 40px;
     height: 40px;
     padding: 10px;
@@ -97,7 +113,7 @@
 
  }
  
- .feature__heading{
+ .feature__title{
     display: inline-block;
     margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -152,20 +168,20 @@
     font-size: 20px;
     margin: auto;
  }
- .content__section{
+ .content{
     width: auto;
     height: auto;
     padding-bottom: 40px;
  }
  
  
- .slider-heading__container{
+ .content__slider-title{
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
  }
 
- .pointer-icon__box{
+ .arrow-title__arrow{
     display: inline-block;
     margin-right: 20px;
  }
@@ -173,7 +189,7 @@
     color: #2aacc8;
     font-size: 20px;
  }
- .latest-work__text{
+ .arrow-title__title{
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -186,12 +202,8 @@
  .fa-circle-chevron-right{
     color:#2aacc8;
  }
- .slider__section{
-    width: auto;
-    height: auto;
-    
- }
- .slider__container{
+ 
+ .content__slider-img{
     padding: 20px 0 40px;
     display: flex;
     justify-content: center;
@@ -199,43 +211,44 @@
     border-top: 1px solid #e8ebf1;
     border-bottom: 1px solid #e8ebf1;
  }
- .image-box1{
-    width: 220px;
-    height: 160px;
-    background: url(./assets/content-image1.jpg) no-repeat;
+
+ .slider-img__hover-block{
+   width: 220px;
+   height: 82px;
+   background-color: #2aacc8;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: none;
  }
- .image-box2{
-   width: 220px;
-   height: 160px;
-   background: url(./assets/content-image2.jpg) no-repeat;
+
+.fa-eye{
+   color:#ffffff;
+   font-size: 30px;
+   margin-right: 10px;
 }
-.image-box3{
-   width: 220px;
-   height: 160px;
-   background: url(./assets/content-image3.jpg) no-repeat;
-}
-.image-box4{
-   width: 220px;
-   height: 160px;
-   background: url(./assets/content-image4.jpg) no-repeat;
+.fa-link{
+   color:#ffffff;
+   font-size: 30px;
+   margin-left: 10px;
 }
 
-.testimonials-client__container{
+.content__testimonials-client{
    padding:20px 0 40px;
    display: flex;
    justify-content: space-between;
 }
-.testimonials__box{
+.testimonials-client__testimonials{
    width: 500px;
    height: auto;
    display: inline-block;
 }
-.testimonials__icon-heading{
+.testimonials__icon-title{
    width: auto;
    height: auto;
    margin-bottom: 10px;
 }
-.comment-icon{
+.icon-title__comment-icon{
    display: inline-block;
 }
 .fa-comment-dots{
@@ -243,7 +256,7 @@
    font-size: 20px;
    margin-right: 10px;
 }
-.testimonials-heading{
+.icon-title__testimonials-title{
    display: inline-block;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;
@@ -256,15 +269,13 @@
    line-height: 24px;
    margin-right: 75px;
 }
-.testimonials-text h4{
-   margin-top: 10px;
-}
-.client__box{
+
+.testimonials-client__client{
    width: 500px;
    height: auto;
    display: inline-block;
 }
-.client-icon{
+.icon-title__icon{
    display: inline-block;
    margin-right: 10px;
 }
@@ -272,7 +283,7 @@
    font-size: 20px;
    color: #2aacc8;
 }
-.client-heading{
+.icon-title__title{
    display: inline-block;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;
@@ -280,55 +291,20 @@
    margin-bottom: 20px;
 
 }
-.client__box{
-   display: flex;
-   justify-content: flex-end;
-}
 .client-images__box{
    display: flex;
    flex-wrap: wrap;
-   justify-content: flex-end;
 
 }
-.cox{
-   width: 167px;
-   height: 100px;
-   background: url(./assets/client-image1.png) no-repeat;
-   background-size: 167px;
 
+#client-img{
+display: block;
 }
-.cnn{
-   width: 167px;
-   height: 100px;
-   background: url(./assets/client-image2.png) no-repeat;
-   background-size: 167px;
 
-}
-.apartment-finder{
-   width: 166px;
-   height: 100px;
-   background: url(./assets/client-image3.png) no-repeat;
-   background-size: 166px;
-}
-.john-deere{
-   width: 167px;
-   height: 100px;
-   background: url(./assets/client-image4.png) no-repeat;
-   background-size: 167px;
-}
-.banana-boat{
-   width: 167px;
-   height: 100px;
-   background: url(./assets/client-image5.png) no-repeat;
-   background-size: 167px;
-}
-.fuji-film{
-   width: 166px;
-   height: 100px;
-   background: url(./assets/client-image6.png) no-repeat;
-   background-size: 166px;
-}
-.download__container{
+
+
+
+.download-container{
    background-color:#e8fcfe;
    border: 1px solid #2aacc8;
    padding: 35px 35px;
@@ -336,19 +312,19 @@
    justify-content: space-between;
    
 }
-.download-info{
+.download-container__download-info{
    width: auto;
    height: auto;
    display: inline-block;
 }
-.download-info p{
+.download-container__download-info p{
    font-size: 16px;
    font-family: Arial, Helvetica, sans-serif;
    color: #363636;
    line-height: 26px;
 }
-.download-btn{
-   display: inline-block;
+
+.download-container__download-btn{
    display: flex;
    align-items: center;
 }
@@ -361,30 +337,28 @@
    background-color: #74DBE7;
    border: 1px solid #2aacc8;
    border-radius: 5px;
-   
-   
 }
 .fa-download{
    color: #ffffff;
    font-size: 25px;
    margin-right: 10px;
 }
-.footer__section{
+.footer-section{
    width: auto;
    height: auto;
    background-color:#e8ebf1;
    padding: 30px 0;
 }
-.footer-info__container{
+.footer__container{
    display: flex;
    justify-content: space-between;
 
 }
-.about-us__box{
+.footer__about-us{
    width: 240px;
    height: auto;
 }
-.footer-info__heading{
+.footer__title{
    font-size: 13px;
    font-family: Arial, Helvetica, sans-serif;
    color: #000000;
@@ -398,7 +372,7 @@
    line-height: 20px;
 
 }
-.explore__box{
+.footer__explore{
    width: auto;
    height: auto;
 }
@@ -429,7 +403,7 @@
    color:#81e4ed;
    
 }
-.brows__box{
+.footer__brows{
    width: auto;
    height: auto;
 
@@ -459,18 +433,18 @@
 .brows__menu-link:hover{
    color:#81e4ed;
 }
-.contact-us__box{
+.footer__contact-us{
    width: auto;
    height: auto;
    font-size: 15px;
    font-family: Arial, Helvetica, sans-serif;
    color: #000000;
 }
-.connect-with-us__box{
+.footer__connect{
    width: 190px;
    height: auto;
 }
-.footer-info__social-media{
+.footer__social-media{
    width: auto;
    height: auto;
    display: flex;
@@ -478,7 +452,7 @@
    justify-content: space-between;
 
 }
-.footer-info__social-media > div {
+.footer__social-media > div {
    width: 50px;
    height: 50px;
    border: 5px solid #ffffff;
@@ -537,16 +511,12 @@
    color: #ffffff;
    font-size: 25px;
 }
-.footer__copyright-section{
-   width: auto;
-   height: auto;
-}
 .copyright__container{
    padding-top: 40px;
    display: flex;
    justify-content: space-between;
 }
-.copyright-text__container{
+.copyright__text-info{
    width: auto;
    height: auto;
    line-height: 18px;
