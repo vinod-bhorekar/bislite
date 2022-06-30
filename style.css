@@ -144,8 +144,6 @@
    color: #2aacc8;
    
  }
-
-
  .fa-pen{
     color: white;
     font-size: 20px;
@@ -173,8 +171,6 @@
     height: auto;
     padding-bottom: 40px;
  }
- 
- 
  .content__slider-title{
     padding: 20px 0;
     display: flex;
@@ -194,7 +190,6 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #000000;
-    
  }
  .fa-circle-chevron-left{
     color: #2aacc8;
@@ -202,36 +197,50 @@
  .fa-circle-chevron-right{
     color:#2aacc8;
  }
- 
- .content__slider-img{
-    padding: 20px 0 40px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    border-top: 1px solid #e8ebf1;
-    border-bottom: 1px solid #e8ebf1;
+ .content__slider-images{
+   display: flex;
+   justify-content: space-between;
  }
 
- .slider-img__hover-block{
-   width: 220px;
-   height: 82px;
-   background-color: #2aacc8;
+ .slider-images__img-box{
+   position: relative;
+   width: auto;
+
+ }
+ 
+ .img-box__img{
+   display: inline block;
+   width:auto;
+   height: auto;
+ }
+ .overlay {
+   position: absolute;
+   top: 50%;
+   height: 80px;
+   width:220px;
+   opacity: 0;
+   transition: 1.0s ease;
+   background-color: #008CBA;
    display: flex;
    justify-content: center;
    align-items: center;
-   display: none;
  }
-
-.fa-eye{
+ .slider-images__img-box:hover .overlay {
+   opacity: 1;
+ }
+ .fa-eye{
    color:#ffffff;
-   font-size: 30px;
-   margin-right: 10px;
+   font-size:25px;
+   padding-right: 15px;
 }
 .fa-link{
    color:#ffffff;
-   font-size: 30px;
-   margin-left: 10px;
+   font-size: 25px;
+
 }
+ 
+
+
 
 .content__testimonials-client{
    padding:20px 0 40px;
@@ -355,7 +364,7 @@ display: block;
 
 }
 .footer__about-us{
-   width: 240px;
+   width: auto;
    height: auto;
 }
 .footer__title{
@@ -530,18 +539,15 @@ display: block;
    margin-right: 5px;
 }
 
-.container__portfolio{
+.section-portfolio{
    width: auto;
    height: auto;
 }
-.portfolio-heading__container{
-  width: auto;
-  height: auto;
-}
-.portfolio-heading__bar{
+
+.portfolio__icon-title{
   padding: 35px 0 10px;
 }
-.brush-icon{
+.icon-title__brush-icon{
   display: inline-block;
   margin-right: 10px;
 }
@@ -551,7 +557,7 @@ display: block;
 
 }
 
-.portfolio__heading{
+.icon-title__title{
    display: inline-block;
    color: #000000;
    font-family: Arial, Helvetica, sans-serif;
@@ -559,18 +565,18 @@ display: block;
    font-size: 15px;
  }
  
- .portfolio-menu__bar{
+ .portfolio__menu-bar{
    padding:15px 0;
    border-top: 1px solid #e8ebf1;
    border-bottom: 1px solid #e8ebf1;
  }
- .portfolio-menu__bar ul{
+ .portfolio__menu-bar ul{
    list-style-type: none;
    padding: 0;
    display: flex;
 
  }
- .menu__link{
+ .menu-bar__menu-link{
    text-decoration: none;
    font-size: 14px;
    color: #000000;
@@ -580,79 +586,23 @@ display: block;
    padding: 10px 15px;
    
  }
- .menu__link:hover{
+ .menu-bar__menu-link:hover{
    background-color: #81e4ed;
    padding: 10px 15px;
  }
 
- .portfolio-images__section{
+ .portfolio__images-section{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   padding: 40px 0;
+   padding-top: 40px;
    border-bottom:1px solid #e8ebf1;
 
  }
- .portfolio-image{
-   width: 220px;
-   height: 160px;
+ .image-section__image{
    margin-bottom: 40px;
-
  }
- #portfolio-img{
-   margin-bottom: 0;
- }
- .portfolio-image1{
-   background: url(./assets/portfolio-1.jpg) no-repeat;
- }
- .portfolio-image2{
-   background: url(./assets/portfolio-2.jpg) no-repeat;
- }
- .portfolio-image3{
-   background: url(./assets/portfolio-3.jpg) no-repeat;
- }
- .portfolio-image4{
-   background: url(./assets/portfolio-4.jpg) no-repeat;
- }
- .portfolio-image5{
-   background: url(./assets/portfolio-5.jpg) no-repeat;
- }
- .portfolio-image6{
-   background: url(./assets/portfolio-6.jpg) no-repeat;
- }
- .portfolio-image7{
-   background: url(./assets/portfolio-7.jpg) no-repeat;
- }
- .portfolio-image8{
-   background: url(./assets/portfolio-8.jpg) no-repeat;
- }
- .portfolio-image9{
-   background: url(./assets/portfolio-9.jpg) no-repeat;
- }
- .portfolio-image10{
-   background: url(./assets/portfolio-10.jpg) no-repeat;
- }
- .portfolio-image11{
-   background: url(./assets/portfolio-11.jpg) no-repeat;
- }
- .portfolio-image12{
-   background: url(./assets/portfolio-12.jpg) no-repeat;
- }
- .portfolio-image13{
-   background: url(./assets/portfolio-13.jpg) no-repeat;
-   
- }
- .portfolio-image14{
-   background: url(./assets/portfolio-14.jpg) no-repeat;
-   
- }
- .portfolio-image15{
-   background: url(./assets/portfolio-15.jpg) no-repeat;
-   
- }
- .portfolio-image16{
-   background: url(./assets/portfolio-16.jpg) no-repeat;
- }
+ 
  .portfolio__pagination{
    display: flex;
    justify-content: center;
@@ -699,14 +649,17 @@ display: block;
 }
 
 
-.contact__container{
+.section-contact{
    width: auto;
    height: auto;
-   padding: 30px 0;
+
 }
-.contact-heading__box{
+.contact-container{
+   padding:35px 0 35px ;
+}
+.contact__icon-title{
    border-bottom: 1px solid #e8ebf1;
-   padding: 15px 0;
+   padding: 10px 0;
 
 
 }
@@ -714,22 +667,22 @@ display: block;
    color: #2aacc8;
    margin-right: 10px;
 }
-.contact-heading__box > h5{
+.contact__icon-title > h5{
    display: inline-block;
    font-size: 15px;
    font-family: Arial, Helvetica, sans-serif;
 
 }
-.form-map__container{
+.contact__form-map{
    padding-top: 35px;
    display: flex;
    justify-content: space-between;
 }
-.form__container{
+.form-map__form-box{
    width:auto;
    height: auto;
 }
-.form__suggestion-text{
+.form-box__suggestion-text{
    margin-bottom: 30px;
    font-size: 14px;
    font-family: Arial, Helvetica, sans-serif;
@@ -774,25 +727,42 @@ textarea:focus{
    border:1px solid #2aacc8;
 
 }
-input[type=submit]{
-   padding:15px 30px;
+.form__submit-btn{
+   display: inline-block;
+   padding:15px 20px;
+
    border: 1px solid #2aacc8;
    border-radius: 8px;
    background-color: #2aacc8;
    font-size: 15px;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
+
 }
-.map__container{
+.form__submit-btn > a{
+   text-decoration: none;
+   font-size: 16px;
+   color: #000000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.submit-btn-icon{
+   background-color: #2aacc8;
+   color: #ffffff;
+   font-size: 20px;
+   padding-right: 10px;
+}
+.form-map__map-box{
    width: auto;
    height: auto;
 
 }
-.map-image__box{
+
+.map-box__map{
    padding: 20px;
    background-color: #e7fbfd;
 }
-.map-image__box > h5 {
+.map-box__map > h5 {
    font-size: 14px;
    color: #000000;
    font-family: Arial, Helvetica, sans-serif;
