@@ -172,9 +172,10 @@
     padding-bottom: 40px;
  }
  .content__slider-title{
-    padding: 20px 0;
+    padding: 25px 0 15px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #b4bac5;
  }
 
  .arrow-title__arrow{
@@ -200,16 +201,20 @@
  .content__slider-images{
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
+   border-bottom: 1px solid #b4bac5;
+   padding-top: 20px;
  }
 
  .slider-images__img-box{
    position: relative;
    width: auto;
+   margin-bottom: 40px;
+  
 
  }
  
  .img-box__img{
-   display: inline block;
    width:auto;
    height: auto;
  }
@@ -220,7 +225,7 @@
    width:220px;
    opacity: 0;
    transition: 1.0s ease;
-   background-color: #008CBA;
+   background-color: #2aacc8;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -238,9 +243,6 @@
    font-size: 25px;
 
 }
- 
-
-
 
 .content__testimonials-client{
    padding:20px 0 40px;
@@ -303,16 +305,11 @@
 .client-images__box{
    display: flex;
    flex-wrap: wrap;
-
 }
 
 #client-img{
 display: block;
 }
-
-
-
-
 .download-container{
    background-color:#e8fcfe;
    border: 1px solid #2aacc8;
@@ -545,7 +542,7 @@ display: block;
 }
 
 .portfolio__icon-title{
-  padding: 35px 0 10px;
+  padding-top: 30px;
 }
 .icon-title__brush-icon{
   display: inline-block;
@@ -591,17 +588,10 @@ display: block;
    padding: 10px 15px;
  }
 
- .portfolio__images-section{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   padding-top: 40px;
-   border-bottom:1px solid #e8ebf1;
+ 
 
- }
- .image-section__image{
-   margin-bottom: 40px;
- }
+
+
  
  .portfolio__pagination{
    display: flex;
