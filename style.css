@@ -40,14 +40,65 @@
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     padding:5px 0;
-}
-#home{
-   margin: 0;
+    
 }
 .nav__page-link:hover{
     border-top: 5px solid #2aacc8;
     font-weight: bold;
 }
+
+
+@media screen and (max-width:768px){
+.header__container{
+   display: flex;
+   flex-direction: column;
+}
+.navigation ul{
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+}
+.navigation li{
+   margin-bottom: 5px;
+}
+.nav__page-link{
+   margin:0;
+   display: block;
+   padding: 15px 30px;
+   
+   background-color: #21a61b;
+}
+.nav__page-link:hover{
+   background-color: #b4bac5;
+   padding: 15px 30px;
+}
+}
+
+@media screen and (max-width:500px){
+   
+  .header__logo img{
+   width: 120px;
+  }
+   .navigation li{
+      margin-bottom: 5px;
+   }
+   .nav__page-link{
+      margin:0;
+      display: block;
+      padding: 10px 20px;
+      background-color: #cb2027;
+   }
+   .nav__page-link:hover{
+      background-color: #b4bac5;
+      padding: 10px 20px;
+   }
+   }
+
+
+
+
+
+
 .hero__section{
     width: auto;
     background-color:#81e4ed;
