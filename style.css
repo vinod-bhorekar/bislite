@@ -5,7 +5,7 @@
 
 
 .header__section{
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: #e8ebf1 ;
     display: flex;
@@ -47,57 +47,27 @@
     font-weight: bold;
 }
 
+@media screen and (max-width:992px){
 
-@media screen and (max-width:768px){
-.header__container{
-   display: flex;
-   flex-direction: column;
+.container{
+   width: 900px;
 }
-.navigation ul{
-   display: flex;
-   flex-direction: column;
-   padding: 0;
-}
-.navigation li{
-   margin-bottom: 5px;
+.header__logo img {
+   width: 80%;
 }
 .nav__page-link{
-   margin:0;
-   display: block;
-   padding: 15px 30px;
-   
-   background-color: #21a61b;
+   font-size: 12px;
+   margin-left: 25px;
 }
-.nav__page-link:hover{
-   background-color: #b4bac5;
-   padding: 15px 30px;
+.hero__title{
+   width: 369px;
+   height: 242px;
+   font-size: 80px;
+   color: #ffffff;
+   margin-left: 50px;
 }
+
 }
-
-@media screen and (max-width:500px){
-   
-  .header__logo img{
-   width: 120px;
-  }
-   .navigation li{
-      margin-bottom: 5px;
-   }
-   .nav__page-link{
-      margin:0;
-      display: block;
-      padding: 10px 20px;
-      background-color: #cb2027;
-   }
-   .nav__page-link:hover{
-      background-color: #b4bac5;
-      padding: 10px 20px;
-   }
-   }
-
-
-
-
-
 
 .hero__section{
     width: auto;
@@ -138,6 +108,20 @@
  .hero__link:hover{
    background-color: #ffffff;
  }
+ @media screen and (max-width:992px){
+   .hero__title{
+      width: 369px;
+      height: 242px;
+      font-size: 40px;
+      color: #ffffff;
+      margin-left: 50px;
+   }
+   .hero__link{
+      width: 12px;
+      height: 12px;
+      
+    }
+}
  .features__section{
     width:auto;
     height:auto;
@@ -217,6 +201,18 @@
     font-size: 20px;
     margin: auto;
  }
+
+@media screen and (max-width:992px){
+   .feature__container{
+      flex-wrap: wrap;
+   }
+   .feature{
+      width: 50%;
+      margin-bottom: 20px;
+   }
+}
+
+ 
  .content{
     width: auto;
     height: auto;
@@ -303,7 +299,7 @@
 .testimonials-client__testimonials{
    width: 500px;
    height: auto;
-   display: inline-block;
+   
 }
 .testimonials__icon-title{
    width: auto;
@@ -335,7 +331,7 @@
 .testimonials-client__client{
    width: 500px;
    height: auto;
-   display: inline-block;
+
 }
 .icon-title__icon{
    display: inline-block;
@@ -361,6 +357,25 @@
 #client-img{
 display: block;
 }
+
+@media screen and (max-width:992px){
+   .testimonials-client__testimonials{
+      width: 400px;
+   
+   }
+   .testimonials-client__client{
+      width: 400px;
+   
+   }
+   #client-img{
+      width: 133.33px;
+      }
+   }
+   
+  
+
+
+
 .download-container{
    background-color:#e8fcfe;
    border: 1px solid #2aacc8;
@@ -394,11 +409,23 @@ display: block;
    background-color: #74DBE7;
    border: 1px solid #2aacc8;
    border-radius: 5px;
+   display: flex;
 }
 .fa-download{
    color: #ffffff;
    font-size: 25px;
    margin-right: 10px;
+}
+
+@media screen and (max-width:992px){
+   .btn{
+      font-size: 15px;
+      padding: 10px 20px;
+   }
+   .fa-download{
+      font-size: 20px;
+      
+   }
 }
 .footer-section{
    width: auto;
@@ -551,8 +578,6 @@ display: block;
 .fa-linkedin-in{
    color:#ffffff;
    font-size: 25px;
-
-
 }
 .skype{
    background-color: #00b0f0;
@@ -585,6 +610,12 @@ display: block;
    color: #363636;
    font-size: 12px;
    margin-right: 5px;
+}
+@media screen and (max-width:992px){
+   .copyright__footer-logo img{
+      width: 80%;
+   }
+   
 }
 
 .section-portfolio{
